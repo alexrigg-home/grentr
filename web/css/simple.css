@@ -1,0 +1,44 @@
+.email_wrapper {
+	padding-left:3em;
+	padding-right:3em;
+	padding-top:2em;
+	padding-bottom:3em;
+	width:100%;
+	background-color: #F9F9F9;
+}
+.centered {
+	margin:auto;
+	width:50%;
+	padding-top:1em;
+
+}
+.keep_right {
+	padding-left:2em;
+	padding-right:2em;
+	padding-top:1em;
+	padding-bottom:1em;
+	text-align: right;
+}
+.light {
+	font-weight: normal;
+}
+.email_wrapper a:link {
+	font-weight: bold;
+	color:black;
+	text-decoration: underline;
+}
+
+.email_content {
+	padding-left:2em;
+	padding-right:2em;
+	padding-top:1em;
+	padding-bottom:1em;
+	background-color: #FFF;
+	font-style: italic;
+}
+
+.email_content a:link {
+	color: red;
+}
+
+

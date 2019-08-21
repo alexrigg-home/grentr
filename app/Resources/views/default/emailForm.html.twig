@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>{% block title %}Welcome!{% endblock %}</title>
+        {% block stylesheets %}
+        <link rel="stylesheet" href="/css/emailform.css" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+        
+        {% endblock %}        
+    </head>
+    <body>
+		<div class="email_form_wrapper">
+			<div class="email_content">
+				<h1>Send to a friend</h1>
+				<span class="grey">Share this great deal with friends</span>			
+				{{ form_start(form,{attr: {class: 'emailform'} }) }}
+				{{ form_widget(form) }}
+				{{ form_end(form) }}   
+			</div>
+		</div>
+    </body>
+</html>
